@@ -98,7 +98,8 @@ defmodule Todo.MixProject do
       {:dart_sass, "~> 0.7", runtime: Mix.env() == :dev},
 
       # Libraries
-      {:membrane_core, "~> 1.0"}
+      {:membrane_core, "~> 1.0"},
+      {:membrane_portaudio_plugin, "~> 0.19"}
     ]
 
     if Mix.target() in [:android, :ios] do
