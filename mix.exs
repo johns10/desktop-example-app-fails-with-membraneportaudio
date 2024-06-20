@@ -99,7 +99,7 @@ defmodule Todo.MixProject do
 
       # Libraries
       {:membrane_core, "~> 1.0"},
-      {:membrane_portaudio_plugin, "~> 0.19"}
+      {:bundlex, "~> 1.5"}
     ]
 
     if Mix.target() in [:android, :ios] do
